@@ -1,0 +1,22 @@
+{
+  "name": "jianwenji",
+  "version": "0.0.1",
+  "description": "Web Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperZee/jianwenji.git"
+  },
+  "author": "SuperZee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperZee/jianwenji/issues"
+  },
+  "homepage": "https://github.com/SuperZee/jianwenji#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
