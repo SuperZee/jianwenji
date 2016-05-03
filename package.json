@@ -1,33 +1,34 @@
 {
-  "title" : "Jianwenji",
+  "title": "Jianwenji",
   "name": "jianwenji",
-  "description" : "modern web site - HTML5 + Express + Gulp + Bootstrap + Bower",
+  "description": "modern web site - HTML5 + Express + Gulp + Bootstrap + Bower",
   "version": "0.0.1",
   "private": true,
-  "author" : {
-    "name" : "SuperZee",
-    "email" : "spicolorpendra@gmail.com"
+  "author": {
+    "name": "SuperZee",
+    "email": "spicolorpendra@gmail.com"
   },
   "scripts": {
     "start": "node ./bin/www"
   },
-  "engines" : {
-    "node" : "4.4.x",
-    "npm" : "2.15.x"
+  "engines": {
+    "node": "4.4.x",
+    "npm": "2.15.x"
   },
   "dependencies": {
     "body-parser": "~1.0.0",
+    "bower": "^1.7.9",
     "chai": "^3.5.0",
     "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",
     "express": "~4.0.0",
     "jade": "~1.3.0",
+    "mocha": "^2.4.5",
     "morgan": "~1.0.0",
-    "static-favicon": "~1.0.0",
-    "bower": "^1.7.9"
+    "static-favicon": "~1.0.0"
   },
-  "homepage" : "https://github.com/SuperZee/jianwenji",
-  "bugs":"https://github.com/SuperZee/jianwenji/issues",
+  "homepage": "https://github.com/SuperZee/jianwenji",
+  "bugs": "https://github.com/SuperZee/jianwenji/issues",
   "licenses": [
     {
       "type": "MIT",
@@ -35,6 +36,19 @@
     }
   ],
   "devDependencies": {
-
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.4",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.2"
   }
 }
