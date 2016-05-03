@@ -1,11 +1,11 @@
 clean:
 	echo clean temp files *****************
-	rm -rf build/
+	rm -rf build
 
 test:
 	clear
 	echo running mocha test *****************
-	mocha
+	mocha routes/*.js
 
 start:
 	echo running node app.js at 127.0.0.1:3000 ***************

@@ -10,7 +10,7 @@
 ## 使用技术
 1. node.js
 2. express
-3. jade | ejs
+3. jade
 4. gulp
 5. sass
 6. react
@@ -18,6 +18,16 @@
 8. jquery | bootstrap
 9. git
 10. bower
-11. atom -> JSLint
+11. atom -> JSHint
 12. Mocha & chai & should.js
 13. Makefile
+
+## Make
+- Make clean
+清理项目临时文件 `build/*`
+
+- Make test
+开启Mocha测试
+
+- Make start
+等同于 `$npm start`
