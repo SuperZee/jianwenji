@@ -1,0 +1,28 @@
+footer div {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 12px;
+  height: 55px;
+  min-width: 100%;
+  background-color: #efeae1;
+  text-align: center; }
+
+footer div ul {
+  line-height: 55px; }
+
+footer div ul li {
+  display: inline; }
+
+footer div ul li a {
+  margin-left: 2px;
+  color: #66595c;
+  font-size: 16px; }
+
+footer div ul li p {
+  line-height: 55px;
+  position: absolute;
+  margin-left: 20%;
+  display: inline; }

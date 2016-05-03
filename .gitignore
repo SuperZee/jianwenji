@@ -9,3 +9,6 @@ components
 
 # Mac
 .DS_Store
+
+# sass
+.sass-cache

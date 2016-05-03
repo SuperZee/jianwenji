@@ -1,0 +1,38 @@
+$blue : #1875e7;
+$fsize : 12px;
+
+
+footer div{
+  position: absolute;
+  bottom: 0; // 配合position永远在页面底部
+  margin:0;
+  padding: 0;
+  display: block;
+  font-size: $fsize;
+  height: 55px;
+  min-width: 100%;
+  background-color: #efeae1;
+  text-align: center; //水平居中
+}
+
+footer div ul{
+  line-height: 55px; // 垂直居中
+  // background-color: rgb(56, 187, 151);
+}
+
+footer div ul li {
+  display: inline; // 让每个li能够水平排列
+}
+
+footer div ul li a{
+  margin-left: 2px;
+  color: #66595c;
+  font-size: 16px;
+}
+
+footer div ul li p{
+  line-height: 55px;
+  position: absolute;
+  margin-left: 20%;
+  display: inline;
+}

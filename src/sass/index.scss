@@ -1,0 +1,31 @@
+$main-size : 14px;
+
+body {
+
+  font: $main-size ;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+
+a,a:hover,a:link,a:active,a:visited{
+  text-decoration:none;
+}
