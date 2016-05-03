@@ -1,11 +1,15 @@
-# 简文集网站
+# 简文集实战项目
 
 ## 项目结构
-- bin 可执行文件
-- public 静态资源
-- routes 路由
-- views jade模板
-- dist gulp压缩打包
+|- bin 可执行文件
+　　|- db  数据库初始数据录入可执行文件
+　　|- www 项目启动文件(npm start执行文件)
+|- public 静态资源目录
+|- routes 路由
+|- views jade模板
+|- dist gulp压缩打包
+|- components  bower自动化目录
+|- tests  Mocha测试目录
 
 ## 使用技术
 1. node.js
@@ -31,3 +35,6 @@
 
 - Make start
 等同于 `$npm start`
+
+## 依赖
+`bower install`
